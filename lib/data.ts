@@ -1,8 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import cookit from "@/public/images/cookit.png";
-import mapper from "@/public/images/mapper.png";
+import cookit from "@/public/cookit.png";
+import mapper from "@/public/mapper.png";
 
 export const links = [
   {
