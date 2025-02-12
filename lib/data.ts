@@ -19,10 +19,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  /* {
+  {
     name: "Projects",
     hash: "#projects",
-  }, */
+  },
   {
     name: "Skills",
     hash: "#skills",
@@ -62,24 +62,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Cook-It",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A recipe sharing platform, where users can share/bookmark their recipes, and also search for different recipes. Built with HTML, CSS, JavaScript.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Mapper",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Modern Webapp to track workouts like running or cycling using third party GPS api, and pinning various location as per the workout details. Mainly built to showcase advanced JavaScript skills.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
