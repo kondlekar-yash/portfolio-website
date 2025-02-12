@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cookit from "@/public/images/cookit.png";
+import mapper from "@/public/images/mapper.png";
 
 export const links = [
   {
@@ -66,14 +64,14 @@ export const projectsData = [
     description:
       "A recipe sharing platform, where users can share/bookmark their recipes, and also search for different recipes. Built with HTML, CSS, JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: corpcommentImg,
+    imageUrl: cookit,
   },
   {
     title: "Mapper",
     description:
       "Modern Webapp to track workouts like running or cycling using third party GPS api, and pinning various location as per the workout details. Mainly built to showcase advanced JavaScript skills.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: mapper,
   },
 ] as const;
 
