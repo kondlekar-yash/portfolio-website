@@ -2,8 +2,8 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-//import { projectsData } from "@/lib/data";
-//import Project from "./project";
+import { projectsData } from "@/lib/data";
+import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
@@ -11,14 +11,15 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>New projects publishing soon..🥳</SectionHeading>
-      {/* <div>
+      <SectionHeading>Projects</SectionHeading>
+      <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>
         ))}
-      </div> */}
+        <span className="font-bold text-center block">...more projects in progress 🥳</span>
+      </div>
     </section>
   );
 }

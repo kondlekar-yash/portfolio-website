@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import cookit from "@/public/cookit.png";
 import mapper from "@/public/mapper.png";
+import movies from "@/public/movies.png";
 
 export const links = [
   {
@@ -33,22 +34,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Jr. Software Developer",
-    location: "Zicuro Tech, Mumbai, India",
-    description:
-      "Got my first job, after bachelors and PG-diploma. Worked on a .NET project using WPF, ASP.NET, Entity-Framework with C# and C++ STL for data structures.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018-19",
-  },
-  {
-    title: "Software Developer",
-    location: "Deakin University, Burwood, Melbourne",
-    description:
-      "Hired by university professor on contract, during my Masters degree. For developing a government funded project: An android app for kids, based on introduction to satellite communication.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021",
-  },
-  {
     title: "Software Engineer",
     location: "Stride Solutions, South Yarra, Melbourne",
     description:
@@ -56,22 +41,37 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
+  {
+    title: "Software Developer",
+    location: "Deakin University, Burwood, Melbourne",
+    description:
+    "Hired by university professor on contract, during my Masters degree. For developing a government funded project: An android app for kids, based on introduction to satellite communication.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021",
+  },
+  {
+    title: "Jr. Software Developer",
+    location: "Zicuro Tech, Mumbai, India",
+    description:
+      "Got my first job, after bachelors and PG-diploma. Worked on a .NET project using WPF, ASP.NET, Entity-Framework with C# and C++ STL for data structures.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018-19",
+  },
 ] as const;
 
 export const projectsData = [
+  {
+    title:"Movie-maze",
+    description:"SPA using Vite+React, RapidApi to fetch, search movies and display trending movies on this platform using custom dynamic algo and Appwrite database.",
+    tags:["Tailwind", "React", "Vite", "Appwrite", "Vercel"],
+    imageUrl: movies,
+  },
   {
     title: "Cook-It",
     description:
       "A recipe sharing platform, where users can share/bookmark their recipes, and also search for different recipes. Built with HTML, CSS, JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: cookit,
-  },
-  {
-    title: "Mapper",
-    description:
-      "Modern Webapp to track workouts like running or cycling using third party GPS api, and pinning various location as per the workout details. Mainly built to showcase advanced JavaScript skills.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: mapper,
   },
 ] as const;
 
