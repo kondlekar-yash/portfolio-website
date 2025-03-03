@@ -18,7 +18,6 @@ export default function Projects() {
             <Project {...project} />
           </React.Fragment>
         ))}
-        <span className="font-bold text-center block">...more projects in progress 🥳</span>
       </div>
     </section>
   );

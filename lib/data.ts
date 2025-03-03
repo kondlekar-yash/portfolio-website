@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import cookit from "@/public/cookit.png";
-import mapper from "@/public/mapper.png";
 import movies from "@/public/movies.png";
+import pitcher from "@/public/pitcher.png";
 
 export const links = [
   {
@@ -60,6 +60,12 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title:"Pitcher",
+    description:"A Next.js 15 platform to submit startup ideas, browse other pitches, and upvote the best ones",
+    tags:["OAuth"," NEXT.js", "Tailwind", "TypeScript", "Sanity", "Sentry", "Vercel"],
+    imageUrl: pitcher,
+  },
   {
     title:"Movie-maze",
     description:"SPA using Vite+React, RapidApi to fetch, search movies and display trending movies on this platform using custom dynamic algo and Appwrite database.",
