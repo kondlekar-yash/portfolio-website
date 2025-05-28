@@ -21,8 +21,7 @@ export default function About() {
       <p className="mb-3">
         After completing my Bachelors degree in{" "}
         <span className="font-medium">Information Technology</span>, I worked as a{" "}<span className="font-medium">Jr. Software Developer</span>, where I focused on backend development using{" "}<span className="font-medium">ASP.NET with MVC architecture, ORM with Entity framework and MongoDB</span>. Currently, I work as a{" "}<span className="font-medium">Software Engineer</span>, leveraging my skills in different projects for both front-end and back-end solutions. My core stack
-        is{" "}<span className="font-medium">React, Next.js, Node.js, and MsSQL</span>, also familiar with using TypeScript, .NET and MongoDB. I like keeping up with interesting new technologies/products, currently learning <br />
-        {" "}<span className="font-medium">GO + PostgreSQL for back-end</span> and <span className="font-medium">Payload 3.0 for CMS + front-end</span>.
+        is{" "}<span className="font-medium">JavaScript, React, Next.js, dotnet core, and MsSQL</span>, also familiar with using node.js and MongoDB.
       </p>
 
       <p>
