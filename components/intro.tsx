@@ -67,7 +67,7 @@ export default function Intro() {
         <span className="font-bold">Software-Engineer</span>{" "}with{" "}
         <span className="font-bold">almost 4 years</span>{" "}of experience. I enjoy
         building{" "}<span className="italic">full-stack products</span>.{" "}At Stride, I focus on providing solutions using{" "}
-        <span className="underline">Next.js, React, Redux, dotnet core, SQL database, Vercel, CMS, and occasionally flutter</span>. I also have hold interest in development using{" "}<span className="underline">node.js</span>{" "}and{" "}<span className="underline">NoSQL databases</span>.
+        <span className="underline">Next.js, React, Redux, APIs, CMS, Vercel, also occasionally .NET core, SQL databases, and flutter</span>. I also have hold interest in development using{" "}<span className="underline">node.js</span>{" "}and{" "}<span className="underline">NoSQL databases</span>.
       </motion.h1>
 
       <motion.div
